@@ -1,6 +1,6 @@
 $(function () {
     var title = document.title,
-        animSeq = ["_"],
+        animSeq = ["|"],
         animIndex = 0,
         titleIndex = 0;
     function doInverseSpinZeroPitch() {
@@ -23,6 +23,6 @@ $(function () {
         strings: ['Sp3kE', "Kto eto?", "Python developer", "Game lover...", "Coder", "Milashka :3"],
         typeSpeed: 100,
         loop: true,
-        cursorChar: "_",
+        cursorChar: "|",
     });
 });
